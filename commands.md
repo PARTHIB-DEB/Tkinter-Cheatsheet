@@ -37,9 +37,9 @@ To give a title on window
 **In Tkinter , we have to bundle everything to main window**
 
 ```bash
-  wd.pack(anchor="....",fill=X or Y,side=left or right or top )
+  wd.pack(anchor="....",fill=X or Y,side=left or right or top)
 ```
-*Gneral paramters in pack*
+*General paramters in pack*
 
 To shape the window , we use *geometry* widget (*W*-width , *H*-Height), It's the default screensize when we run the file
 
@@ -78,6 +78,16 @@ To set block wise componental UI , We use *Frame*
 ```bash
   f=Frame(root,bg="color_name",borderwidth=numeric)
 ```
+
+To use buttons, we have to to declare a frame atleast, inside a frame we can put several buttons
+
+```bash
+  def function_name():
+    pass
+  bt=Button(f,fg="",text="",commands=function_name)
+```
+
+##
 
 **Looping the changes in Main window and restart**
 
