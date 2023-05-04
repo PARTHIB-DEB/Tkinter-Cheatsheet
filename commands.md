@@ -8,7 +8,7 @@ Its a simple cheatsheet of Tkinter by which we can create desktop GUI by Python
   from tkinter import *
 ```
 To initiliaze a project , first of all we have to initialize a window - 
-A typical Tkinter window is basically an object of *TK* class
+A typical Tkinter window is basocally at object of *TK* class
 
 ```bash
   root=Tk()
