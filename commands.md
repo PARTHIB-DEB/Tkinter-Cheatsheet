@@ -37,7 +37,7 @@ To give a title on window
 **In Tkinter , we have to bundle everything to main window**
 
 ```bash
-  wd.pack(anchor="....",fill=X or Y,side=left or right or top ,)
+  wd.pack(anchor="....",fill=X or Y,side=left or right or top )
 ```
 *Gneral paramters in pack*
 
