@@ -13,17 +13,13 @@ A typical Tkinter window is basically an object of *TK* class
 ```bash
   root=Tk()
 ```
-Everything in Tkinter is a *widget* , so a command to create a widget
+Everything in Tkinter is a *widget* , so a command to create a widget named *label*
 
 ```bash
   wd=label(root,text="....",params)
 ```
 
-To give a title on window
-```bash
-    root.title("....")
-```
-**Important params of widgets**
+**General parameters of every widget**
 
 | Params  | What it does |
 | ------------- | ------------- |
@@ -34,6 +30,14 @@ To give a title on window
 | padx | padding in X  |
 | pady | padding in Y  |
 | relief | Border style  |
+
+
+
+To give a title on window
+```bash
+    root.title("....")
+```
+
 
 **In Tkinter , we have to bundle everything to main window**
 
