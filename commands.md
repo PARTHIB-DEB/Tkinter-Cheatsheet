@@ -22,7 +22,7 @@ To give a title on window
 ```bash
     root.title("....")
 ```
-**Important params of label**
+**Important params of widgets**
 
 | Params  | What it does |
 | ------------- | ------------- |
@@ -37,8 +37,9 @@ To give a title on window
 **In Tkinter , we have to bundle everything to main window**
 
 ```bash
-  wd.pack(anchor="....",fill=X or Y,side=left or right)
+  wd.pack(anchor="....",fill=X or Y,side=left or right or top ,)
 ```
+*Gneral paramters in pack*
 
 To shape the window , we use *geometry* widget (*W*-width , *H*-Height), It's the default screensize when we run the file
 
