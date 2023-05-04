@@ -42,7 +42,7 @@ To give a title on window
 ```
 *General paramters in pack*
 
-To shape the window , we use *geometry* widget (*W*-width , *H*-Height), It's the default screensize when we run the file
+To shape the window , we use *geometry* widget (*W*-width(numeric) , *H*-Height(numeric)), It's the default screensize when we run the file
 
 ```bash
   root.geometry("WxH")
