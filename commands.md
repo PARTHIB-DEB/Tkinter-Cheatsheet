@@ -88,7 +88,7 @@ To use buttons, we have to to declare a frame atleast, inside a frame we can put
   bt=Button(f,fg="",text="",commands=function_name)
 ```
 
-In grid format , we can specify location of block components (*label*, *frame*,*image*,*buttons* etc),To initialize a grid structure (comrpise of ROWS and COLUMNS)
+In grid format , we can specify location of block components (*label*, *frame*,*image*,*buttons*,*entry* etc),To initialize a grid structure (comrpise of ROWS and COLUMNS)
 
 
 ```bash
@@ -109,6 +109,12 @@ To Get user input there are 4 datatypes
   Valuetype=BooleanVar()
 
   value=Entry(root,textVariable=Valuetype)
+```
+
+For checkbuttons , we use *CheckButtons*
+
+```bash
+  k=CheckButton(text="",variable= Valuetype)
 ```
 
 ##
