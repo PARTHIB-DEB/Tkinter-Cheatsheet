@@ -32,6 +32,7 @@ To give a title on window
 | font  | font-name size type  |
 | padx | padding in X  |
 | pady | padding in Y  |
+| relief | Border style  |
 
 **In Tkinter , we have to bundle everything to main window**
 
@@ -69,6 +70,12 @@ To support any unsupported images , install *pillow*
     from PIL import Image,ImageTk
     image=Image.open(file="abc.ext")
     photo=ImageTk.PhotoImage(image)
+```
+
+To set block wise componental UI , We use *Frame*
+
+```bash
+  f=Frame(root,bg="color_name",borderwidth=numeric)
 ```
 
 **Looping the changes in Main window and restart**
